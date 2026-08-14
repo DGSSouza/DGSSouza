@@ -1,0 +1,162 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="background" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+
+<stop stop-color="#06080D"/>
+<stop offset="0.5" stop-color="#0D1117"/>
+<stop offset="1" stop-color="#111827"/>
+
+</linearGradient>
+
+<linearGradient id="bluePurple" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+
+<stop stop-color="#60A5FA"/>
+<stop offset="1" stop-color="#A78BFA"/>
+
+</linearGradient>
+
+<radialGradient id="glowBlue">
+
+<stop
+  offset="0"
+  stop-color="#60A5FA"
+  stop-opacity="0.18"/>
+
+<stop
+  offset="1"
+  stop-color="#60A5FA"
+  stop-opacity="0"/>
+
+</radialGradient>
+
+<radialGradient id="glowPurple">
+
+<stop
+  offset="0"
+  stop-color="#A78BFA"
+  stop-opacity="0.14"/>
+
+<stop
+  offset="1"
+  stop-color="#A78BFA"
+  stop-opacity="0"/>
+
+</radialGradient>
+
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+
+<path
+  d="M32 0H0V32"
+  stroke="#FFFFFF"
+  stroke-opacity="0.035"
+  stroke-width="1"/>
+
+</pattern>
+
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+
+<feGaussianBlur stdDeviation="35"/>
+
+</filter>
+
+</defs>
+
+<!-- BACKGROUND -->
+
+<rect width="1200" height="300" rx="18" fill="url(#background)"/>
+
+<!-- GRID -->
+
+<rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+
+<!-- GLOW -->
+
+<circle cx="150" cy="50" r="230" fill="url(#glowBlue)" filter="url(#blur)"/>
+
+<circle cx="1050" cy="260" r="240" fill="url(#glowPurple)" filter="url(#blur)"/>
+
+<!-- DECORATIVE CIRCUIT LINES -->
+
+<path d="M0 245 C180 195 300 285 500 225 C720 160 920 190 1200 95" stroke="url(#bluePurple)" stroke-opacity="0.25" stroke-width="2" fill="none"/>
+
+<path d="M0 270 C200 215 340 310 550 240 C780 165 960 210 1200 120" stroke="url(#bluePurple)" stroke-opacity="0.10" stroke-width="1" fill="none"/>
+
+<!-- SMALL DECORATIVE NODES -->
+
+<circle cx="500" cy="225" r="4" fill="#60A5FA" fill-opacity="0.8"/>
+
+<circle cx="920" cy="190" r="4" fill="#A78BFA" fill-opacity="0.8"/>
+
+<circle cx="1080" cy="160" r="3" fill="#60A5FA" fill-opacity="0.6"/>
+
+<!-- CODE SYMBOL -->
+
+<text x="70" y="70" fill="#60A5FA" fill-opacity="0.45" font-family="monospace" font-size="16">
+
+</>
+
+</text>
+
+<text x="1060" y="250" fill="#A78BFA" fill-opacity="0.35" font-family="monospace" font-size="17">
+
+{ backend }
+
+</text>
+
+<!-- NAME -->
+
+<text x="70" y="135" fill="#F4F4F5" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">
+
+Diego Gabriel Silva Souza
+
+</text>
+
+<!-- ROLE -->
+
+<text x="72" y="172" fill="#60A5FA" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600">
+
+Backend Developer
+
+</text>
+
+<!-- STACK -->
+
+<text x="72" y="208" fill="#A1A1AA" font-family="Arial, Helvetica, sans-serif" font-size="15">
+
+Java · Spring Boot · REST APIs · Clean Code
+
+</text>
+
+<!-- STATUS -->
+
+<circle cx="76" cy="247" r="5" fill="#4ADE80"/>
+
+<text x="91" y="252" fill="#71717A" font-family="Arial, Helvetica, sans-serif" font-size="13">
+
+Building backend systems
+
+</text>
+
+<!-- RIGHT SIDE DECORATION -->
+
+<text x="1035" y="75" fill="#60A5FA" fill-opacity="0.18" font-family="monospace" font-size="13">
+
+Java
+
+</text>
+
+<text x="1080" y="100" fill="#A78BFA" fill-opacity="0.18" font-family="monospace" font-size="13">
+
+Spring
+
+</text>
+
+<text x="1040" y="125" fill="#60A5FA" fill-opacity="0.18" font-family="monospace" font-size="13">
+
+REST
+
+</text>
+
+</svg>
